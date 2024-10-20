@@ -1,0 +1,3 @@
+# Dockerfile for Frontend Service
+FROM nginx:alpine
+COPY ./index.html /usr/share/nginx/html/index.html
